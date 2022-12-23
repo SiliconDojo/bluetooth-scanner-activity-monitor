@@ -17,8 +17,12 @@ This implementation has the python script be manually triggered and then it simp
 
 Might be better to have a cron job fire off every minute and eliminate the sleep in the python script
 
+Code explaination:
+take-pic-mysql-loop.py is the main script that triggers OpenCV to take a picture, bluetoothctl to scan for devices and inputs results to MySQL
+bt-mysql-report.php is a basic ASCII dashboard to show device activity over different periods of time
+bt-mysql-loop-picture-report.php shows a per minute devices found, a picture and a timestamp
 
-Scap paper:
+Scrap paper:
 
 Bluetoothctl —timeout 10 scan on > bt.txt
 

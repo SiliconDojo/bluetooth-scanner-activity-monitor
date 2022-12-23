@@ -23,7 +23,8 @@ bt-mysql-report.php is a basic ASCII dashboard to show device activity over diff
 bt-mysql-loop-picture-report.php shows a per minute devices found, a picture and a timestamp
 
 Scrap paper:
-Demop system is Ubuntu Desktop
+
+Demo system is Ubuntu Desktop
 
 Bluetoothctl —timeout 10 scan on | grep Device > bt.txt
 
